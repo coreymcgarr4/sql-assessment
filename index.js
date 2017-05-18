@@ -2,7 +2,6 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var massive = require('massive');
-var config = require('./.config.js');
 //Need to enter username and password for your database
 var connString = 'postgres://postgres:postgres@localhost/assessbox';
 
